@@ -18,24 +18,43 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
-            <a href="" class="navbar-brand">Portfólio</a>
+            <div class="container-fluid">
+                <a href="" class="navbar-brand">
+                    Portfólio <!--Colocar imagem da logo aqui-->
+                </a>
 
-            <!-- navegacao -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Contato</a>
-                </li>
-            </ul>
-            
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <i class="fa-solid fa-bars text-white"></i>
+                </button>
+
+                <!-- navegacao -->
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
         </nav>
     </header>
-teste
+
+    <section id="home" class="d-flex">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Meu Portfólio</h1>
+                    <p>Aqui você vai saber um pouco mais sobre mim e sobre meu trabalho!</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
