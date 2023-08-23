@@ -13,6 +13,10 @@
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/81439fd4c5.js" crossorigin="anonymous"></script>
 
+    <!--Lightbox-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
     <title>Meu Portfólio</title>
 </head>
 <body class="gradient">
@@ -35,10 +39,10 @@
                                 <a href="" class="nav-link text-white">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link text-white">Sobre</a>
+                                <a href="#sobre" class="nav-link text-white">Sobre</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link text-white">Contato</a>
+                                <a href="#contato" class="nav-link text-white">Contato</a>
                             </li>
                         </ul>
                     </div>
@@ -47,12 +51,81 @@
         </header>
     </div>
     <!--Informação central-->
-    <div id="principal" class="d-flex align-itens-center flex-column">
-        <img src="imagens/perfil.jpeg" width="140" class="mx-auto" ><br>
-        <h1 class="text">Eduardo Kleber</h1>
-    </div>
+    <section id="principal" class="d-flex">
+        <div class="container-fluid align-self-center">
+            <div class="row">
+                <div class="col-md-12 centro">
+                    <img class="mb-3" src="imagens/perfil.jpeg" width="140"><br>
+                    <h1 class="text">Eduardo Kleber</h1>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Fim informação principal-->
 
+    <!-- Section Sobre -->
+    <section id="sobre">
+        <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-6">
+                    <div class="row imagens">
+                        <div class="col-md-6">
+                         <img src="imagens/gokus.gif" class="img-fluid" style="box-shadow: none;" width="">
+                         </div>
+                    </div>
+               </div> 
+               <div class="col-md-5 ml-2">
+                <h2 class="animate-heading">Sobre mim</h2>
+                <p>Sou um entusiasta do desenvolvimento frontend apaixonado por criar experiências de usuário envolventes e visualmente atraentes. Minha jornada no mundo do desenvolvimento web começou com a curiosidade de explorar como as interfaces podem transformar a maneira como as pessoas interagem com a tecnologia. Minhas habilidades incluem a criação de layouts responsivos usando HTML e CSS, a implementação de interações dinâmicas com JavaScript e a colaboração com designers para traduzir conceitos em interfaces fluidas e amigáveis. Estou sempre em busca de novas tendências e técnicas para aprimorar minhas habilidades e oferecer soluções de frontend modernas e eficazes.</p><br>
+
+                <h3 class="animate-heading">Meu Portfólio</h3>
+                <p>Embora eu tenha começado recentemente no mundo do desenvolvimento web, estou animado para compartilhar o meu portfólio em constante crescimento. Meu objetivo é mostrar os projetos que criei até agora e destacar as habilidades que estou desenvolvendo. Enquanto aprendo mais e aprimoro minhas competências, pretendo expandir meu portfólio com projetos cada vez mais interessantes e desafiadores. Estou ansioso para receber feedback e continuar evoluindo como desenvolvedor frontend. Veja abaixo alguns dos meus projetos.</p>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fim Sobre -->
+
+    <!-- Section Contato -->
+    <section id="contato">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Entre em contato</h2>
+                    <p>Estou sempre aberto para novas oportunidades e colaborações. Se você deseja discutir um projeto, fazer uma pergunta ou simplesmente dizer olá, fique à vontade para entrar em contato comigo. Estou ansioso para falar com você!</p>
+                    <div class="form-group">
+                        <input class="form-control smaller-input" type="email" id="email" placeholder="Digite seu email" >
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea class="form-control smaller-textarea" id="mensagem" rows="3"></textarea>
+                    </div>
+                    <button class="btn btn-warning" type="submit">Enviar</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="row imagens">
+                        <div class="col-md-6">
+                            <a href="imagens/spotify2.png" target="_blank" data-lightbox="imagens"><img src="imagens/spotify2.png" class="img-fluid"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="imagens/trainning2.png" target="_blank" tdata-lightbox="imagens"><img src="imagens/trainning2.png" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="row imagens">
+                        <div class="col-md-6">
+                            <a href="imagens/finans.png" target="_blank" data-lightbox="imagens"><img src="imagens/finans.png" class="img-fluid"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="imagens/museu.png" target="_blank" data-lightbox="imagens"><img src="imagens/museu.png" class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fim Contato -->
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

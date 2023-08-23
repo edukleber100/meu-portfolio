@@ -1,11 +1,16 @@
-* {
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+
+
+html, body, #principal{
+    height: 100%;
     margin: 0;
-    box-sizing: border-box;
-    
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .text {
+    display: inline;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 5rem;
@@ -15,7 +20,6 @@
 }
 
 .gradient {
-    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -23,16 +27,71 @@
     background: linear-gradient(45deg, #FFF5E0, #FF6969, #BB2525, #141E46 );
     background-size: 300%, 300%;
     animation: colors 15s ease infinite;
+    background-attachment: fixed;
 }
 
 #principal img {
     border-radius: 40%;
     box-shadow: 8px 8px 8px;
+    transition: transform 0.3s ease;
+    transform: scale(1);
+}
+
+#principal img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#sobre {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+#contato {
+    margin-bottom: 50px;
+}
+
+.imagens{
+    padding: 10px 0px;
+}
+
+.imagens img {
+    border-radius: 10%;
+    box-shadow: 2px 2px 10px;
+    transform: scale(1);
+}
+
+.imagens img:hover {
+    transform: scale(1.1);
 }
 
 .navbar-nav .nav-link:hover {
     font-size: 20px;
     transition: 0.2s;
+}
+
+.centro {
+    text-align: center;
+}
+
+p {
+    font-family: 'Chivo', sans-serif;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+}
+
+h2 {
+    font-family:'Abril Fatface', cursive;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    font-family:'Abril Fatface', cursive;
+    font-size: 2em;
+    color: white;
 }
 
 
@@ -50,3 +109,32 @@
     }
 }
 
+.animate-heading {
+    position: relative;
+    display: inline-block;
+}
+
+.animate-heading::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #FF6969; /* Cor da linha da animação */
+    transition: width 0.3s ease;
+}
+
+.animate-heading:hover::before {
+    width: 100%;
+}
+
+.smaller-input {
+    width: 250px; /* Defina a largura desejada */
+}
+
+.smaller-textarea {
+    width: 400px; /* Defina a largura desejada */
+    height: 210px; /* Defina a altura desejada */
+}
