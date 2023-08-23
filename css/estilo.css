@@ -29,7 +29,7 @@ body {
     margin-top: 20px;
     background: linear-gradient(45deg, #cc1094, #6949FC);
     -webkit-background-clip: text;
-    animation: logoanimation 1s ease-in-out infinite alternate;
+    animation: logoanimation 1s ease-in-out;
     background-clip: text;
     color: transparent;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,62 +62,9 @@ body {
     padding-top: 50px;
 }
 
-
-@media (max-width: 768px) {
-    #home {
-        margin-bottom: 300px;
-    }
-    #conteudo {
-        margin-bottom: 100px; 
-    }
-    .scroll-text {
-        animation: scrollreveal 5s ease-in-out infinite alternate;
-        overflow: auto;
-        height: auto; 
-    }
+.fa-beat-fade {
+    animation-duration: 7s;
 }
-
-@media (min-width: 576px) {
-    #conteudo {
-        margin-bottom: 0px; 
-    }
-    #home {
-        margin-bottom: 350px;
-    }
-    .scroll-text {
-        animation: scrollreveal 5s ease-in-out infinite alternate;
-        overflow: auto;
-        height: auto; 
-    }
-}
-
-@media (min-width: 375px) {
-    #home {
-        margin-bottom: 500px;
-    }
-    #conteudo {
-        margin-bottom: 100px; 
-    }
-    .scroll-text {
-        animation: scrollreveal 5s ease-in-out infinite alternate;
-        overflow: auto;
-        height: auto; 
-    }
-}
-
-@media (max-width: 532px) {
-    #conteudo {
-        margin-bottom: 0px; 
-    }
-    #home {
-        margin-bottom: 370px;
-    }
-    .scroll-text {
-        animation: scrollreveal 5s ease-in-out infinite alternate;
-        overflow: auto;
-        height: auto; 
-    }
-} 
 
 @keyframes logoanimation {
     0% {
@@ -128,12 +75,23 @@ body {
     }
 }
 
+/*Animaçãoes para P no home*/
+
 @keyframes scrollreveal {
     from {
         transform: translateY(10%);
     }
     to {
         transform: translateY(0);
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
     }
 }
 
