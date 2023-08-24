@@ -60,10 +60,12 @@ html, body, #principal{
     border-radius: 10%;
     box-shadow: 2px 2px 10px;
     transform: scale(1);
+    transition: 0.2s;
 }
 
 .imagens img:hover {
     transform: scale(1.1);
+    transition: 0.2s;
 }
 
 .navbar-nav .nav-link:hover {
@@ -138,3 +140,4 @@ h3{
     width: 400px; /* Defina a largura desejada */
     height: 210px; /* Defina a altura desejada */
 }
+
