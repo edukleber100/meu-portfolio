@@ -25,7 +25,7 @@
                 <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
                     <div class="container-fluid" >
                         <a href="" class="navbar-brand">
-                            <img src="imagens/logo.png" width="50"> <!--Colocar imagem da logo aqui-->
+                            <img src="imagens/logo2.png" width="50"> <!--Colocar imagem da logo aqui-->
                         </a>
 
                         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -56,8 +56,11 @@
                 <div class="row">
                     <div class="col-md-12 centro">
                         <img class="mb-3" src="imagens/perfil.jpeg" width="140"><br>
+                        <a href="https://www.linkedin.com/in/eduardo-kleber-37b272236/" target="_blank"><i class="fa-brands fa-linkedin fa-4x text-white"></i></a>
                         <h1 class="text">Eduardo Kleber</h1>
+                        <a href="https://github.com/edukleber100" target="_blank"><i class="fa-brands fa-square-github fa-4x text-white"></i></a>
                     </div>
+                    
                 </div>
             </div>
         </section>
@@ -77,9 +80,6 @@
                 <div class="col-md-5 ml-2">
                     <h2 class="animate-heading">Sobre mim</h2>
                     <p>Sou um entusiasta do desenvolvimento frontend apaixonado por criar experiências de usuário envolventes e visualmente atraentes. Minha jornada no mundo do desenvolvimento web começou com a curiosidade de explorar como as interfaces podem transformar a maneira como as pessoas interagem com a tecnologia. Minhas habilidades incluem a criação de layouts responsivos usando HTML e CSS, a implementação de interações dinâmicas com JavaScript e a colaboração com designers para traduzir conceitos em interfaces fluidas e amigáveis. Estou sempre em busca de novas tendências e técnicas para aprimorar minhas habilidades e oferecer soluções de frontend modernas e eficazes.</p><br>
-
-                    <h3 class="animate-heading">Meu Portfólio</h3>
-                    <p>Embora eu tenha começado recentemente no mundo do desenvolvimento web, estou animado para compartilhar o meu portfólio em constante crescimento. Meu objetivo é mostrar os projetos que criei até agora e destacar as habilidades que estou desenvolvendo. Enquanto aprendo mais e aprimoro minhas competências, pretendo expandir meu portfólio com projetos cada vez mais interessantes e desafiadores. Estou ansioso para receber feedback e continuar evoluindo como desenvolvedor frontend. Veja abaixo alguns dos meus projetos.</p>
                 </div>
                 </div>
             </div>
@@ -87,28 +87,75 @@
 
         <!-- Fim Sobre -->
 
-        <!-- Section Contato -->
-        <section id="contato">
+        <!-- Section Portfólio -->
+        <section id="sobre">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h2>Entre em contato</h2>
+                <div class="col-md-6">
+                        <h3 class="animate-heading">Meu Portfólio</h3>
+                        <p>Embora eu tenha começado recentemente no mundo do desenvolvimento web, estou animado para compartilhar o meu portfólio em constante crescimento. Meu objetivo é mostrar os projetos que criei até agora e destacar as habilidades que estou desenvolvendo. Enquanto aprendo mais e aprimoro minhas competências, pretendo expandir meu portfólio com projetos cada vez mais interessantes e desafiadores. Estou ansioso para receber feedback e continuar evoluindo como desenvolvedor frontend. Veja abaixo alguns dos meus projetos.</p><br>
+                </div>
+                    <div class="row imagens">
+                        <div class="col-md-6">
+                            <a href="imagens/spotify2.png" target="_blank" data-lightbox="imagens"><img src="imagens/spotify2.png" class="img-fluid"></a>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="imagens/trainning2.png" target="_blank" tdata-lightbox="imagens"><img src="imagens/trainning2.png" class="img-fluid"></a>
+                        </div>
+                        
+                    </div>
+                        <div class="row imagens">
+                            <div class="col-md-6">
+                                <a href="imagens/finans.png" target="_blank" data-lightbox="imagens"><img src="imagens/finans.png" class="img-fluid"></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="imagens/museu.png" target="_blank" data-lightbox="imagens"><img src="imagens/museu.png" class="img-fluid"></a>
+                            </div>
+                            
+                            </div>
+                            
+                        </div>
+                        <!-- SEÇÃO PARA COPIAR AO ADICIONAR MAIS IMAGENS AO PORTFÓLIO 
+                        <div class="row imagens">
+                            <div class="col-md-6">
+                                <a href="imagens/finans.png" target="_blank" data-lightbox="imagens"><img src="imagens/finans.png" class="img-fluid"></a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="imagens/museu.png" target="_blank" data-lightbox="imagens"><img src="imagens/museu.png" class="img-fluid"></a>
+                            </div>
+                            
+                            </div>
+                            
+                        </div>
+                         FIM-->
+                         
+                </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contato -->
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
+                        <h2 class="animate-heading">Entre em contato</h2>
                         <p>Estou sempre aberto para novas oportunidades e colaborações. Se você deseja discutir um projeto, fazer uma pergunta ou simplesmente dizer olá, fique à vontade para entrar em contato comigo. Estou ansioso para falar com você!</p>
-                        <form action="email.php" method="POST"> <!-- Início do formulário -->
+                        <form action="" method=""> <!-- Início do formulário -->
                             <div class="form-group">
                                 <input class="form-control smaller-input" type="nome" name="nome" placeholder="Digite seu nome" >
                             </div>
                             <div class="form-group">
                                 <input class="form-control smaller-input" type="email" name="email" placeholder="Digite seu email" >
                             </div>
-                            <div class="form-group">
+                            <div class="form-group mensagem">
                                 <textarea class="form-control smaller-textarea" name="mensagem" rows="3" placeholder="Digite uma mensagem" required></textarea>
                             </div>
-                            <button class="btn btn-warning" type="submit">Enviar</button>
+                            <button class="btn btn-custom btn-branco" type="submit">Enviar</button>
 
                         </form> <!-- Fim do formulário -->
                     </div>
-                    <div class="col-md-6">
+                  <!--  <div class="col-md-6">
                         <div class="row imagens">
                             <div class="col-md-6">
                                 <a href="imagens/spotify2.png" target="_blank" data-lightbox="imagens"><img src="imagens/spotify2.png" class="img-fluid"></a>
@@ -125,11 +172,22 @@
                                 <a href="imagens/museu.png" target="_blank" data-lightbox="imagens"><img src="imagens/museu.png" class="img-fluid"></a>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </section>
         <!-- Fim Contato -->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <p>&copy; 2023 Eduardo Kleber. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
         
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

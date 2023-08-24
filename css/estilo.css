@@ -42,6 +42,16 @@ html, body, #principal{
     transition: 1s;
 }
 
+#principal i {
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+#principal i:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
 #sobre {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -63,18 +73,46 @@ html, body, #principal{
     transition: 0.2s;
 }
 
+.img-fluid {
+    margin: 10px;
+    width: 90%;
+}
+
 .imagens img:hover {
     transform: scale(1.1);
     transition: 0.2s;
 }
 
+.navbar-transparente {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-link {
+    transform: scale(1);
+    transition: 0.2s;
+}
+
 .navbar-nav .nav-link:hover {
-    font-size: 20px;
+    transform: scale(1.2);
     transition: 0.2s;
 }
 
 .centro {
     text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-branco {
+    border: 2px solid white;
 }
 
 p {
@@ -141,3 +179,12 @@ h3{
     height: 210px; /* Defina a altura desejada */
 }
 
+footer {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 10px 10px;
+}
+
+footer p{
+    font-size: 11px;
+    color: white;
+}
