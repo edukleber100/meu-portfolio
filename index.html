@@ -142,17 +142,20 @@
                     <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
                         <h2 class="animate-heading">Entre em contato</h2>
                         <p>Estou sempre aberto para novas oportunidades e colaborações. Se você deseja discutir um projeto, fazer uma pergunta ou simplesmente dizer olá, fique à vontade para entrar em contato comigo. Estou ansioso para falar com você!</p>
-                        <form action="" method=""> <!-- Início do formulário -->
+                        <form action="https://formsubmit.co/edukleber100@gmail.com" method="POST"> <!-- Início do formulário -->
                             <div class="form-group">
-                                <input class="form-control smaller-input" type="nome" name="nome" placeholder="Digite seu nome" >
+                                <input class="form-control smaller-input" type="nome" name="nome" placeholder="Digite seu nome" required>
                             </div>
                             <div class="form-group">
-                                <input class="form-control smaller-input" type="email" name="email" placeholder="Digite seu email" >
+                                <input class="form-control smaller-input" type="email" name="email" placeholder="Digite seu email" required>
                             </div>
                             <div class="form-group mensagem">
                                 <textarea class="form-control smaller-textarea" name="mensagem" rows="3" placeholder="Digite uma mensagem" required></textarea>
                             </div>
                             <button class="btn btn-custom btn-branco" type="submit">Enviar</button>
+                            <input type="hidden" name="_subject" value="Nova mensagem!">
+                            <input type="text" name="_honey" style="display:none">
+                            <input type="hidden" name="_captcha" value="false">
 
                         </form> <!-- Fim do formulário -->
                     </div>
