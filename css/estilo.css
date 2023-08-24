@@ -188,3 +188,10 @@ footer p{
     font-size: 11px;
     color: white;
 }
+
+@media (max-width: 390px) { 
+    .text {
+        font-size: 3em;
+        border: none;
+    }
+ }
