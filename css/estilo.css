@@ -175,7 +175,7 @@ h3{
 }
 
 .smaller-textarea {
-    width: 400px; /* Defina a largura desejada */
+    width: 500px; /* Defina a largura desejada */
     height: 210px; /* Defina a altura desejada */
 }
 
@@ -194,4 +194,16 @@ footer p{
         font-size: 3em;
         border: none;
     }
+
+    .smaller-textarea {
+        width: 10px; /* Defina a largura desejada */
+        height: 10px; /* Defina a altura desejada */
+    }
  }
+
+ @media (max-width: 575.98px) { 
+    .smaller-textarea {
+        width: 300px; /* Defina a largura desejada */
+        height: 10px; /* Defina a altura desejada */
+    }
+  }
