@@ -26,7 +26,7 @@ Meu portfólio foi criado para destacar meus conhecimentos, conquistas e projeto
 
 ## Como Acessar
 
-Visite o meu portfólio online através do seguinte link: [[https://www.eduardoportfolio.com](https://edukleber100.github.io/meu-portfolio/)](https://edukleber100.github.io/meu-portfolio/). Explore as diferentes seções, conheça mais sobre mim e meus projetos, e fique à vontade para entrar em contato!
+Visite o meu portfólio online através do seguinte link: [[https://www.eduardoportfolio.com](https://edukleber100.github.io/meu-portfolio/)]. Explore as diferentes seções, conheça mais sobre mim e meus projetos, e fique à vontade para entrar em contato!
 
 ## Contato
 
