@@ -18,7 +18,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
         <title>Meu Portfólio</title>
-        <link rel="icon" href="imagens/logo2.png">
+        <link rel="icon" href="imagens/logo.png">
     </head>
     <body class="gradient">
         <div>
@@ -26,7 +26,7 @@
                 <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
                     <div class="container-fluid" >
                         <a href="" class="navbar-brand">
-                            <img src="imagens/logo2.png" width="50"> <!--Colocar imagem da logo aqui-->
+                            <img src="imagens/logo.png" width="50"> <!--Colocar imagem da logo aqui-->
                         </a>
 
                         <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
@@ -137,47 +137,42 @@
         </section>
 
         <!-- Section Contato -->
-        <section id="contato">
+        <section id="contato" style="margin-bottom: 20px;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 d-flex justify-content-center align-items-center flex-column">
                         <h2 class="animate-heading">Entre em contato</h2>
-                        <p>Estou sempre aberto para novas oportunidades e colaborações. Se você deseja discutir um projeto, fazer uma pergunta ou simplesmente dizer olá, fique à vontade para entrar em contato comigo. Estou ansioso para falar com você!</p>
-                        <form action="" method=""> <!-- Início do formulário -->
-                            <div class="form-group">
-                                <input class="form-control smaller-input" type="nome" name="nome" placeholder="Digite seu nome" >
-                            </div>
-                            <div class="form-group">
-                                <input class="form-control smaller-input" type="email" name="email" placeholder="Digite seu email" >
-                            </div>
-                            <div class="form-group mensagem">
-                                <textarea class="form-control smaller-textarea" name="mensagem" rows="3" placeholder="Digite uma mensagem" required></textarea>
-                            </div>
-                            <button class="btn btn-custom btn-branco" type="submit">Enviar</button>
-
-                        </form> <!-- Fim do formulário -->
+                        <p>Estou sempre aberto para novas oportunidades e colaborações.Se você deseja discutir um projeto, fazer uma pergunta ou simplesmente dizer olá, fique à vontade para entrar em contato comigo. Estou ansioso para falar com você!</p>
+                        
                     </div>
-                  <!--  <div class="col-md-6">
-                        <div class="row imagens">
-                            <div class="col-md-6">
-                                <a href="imagens/spotify2.png" target="_blank" data-lightbox="imagens"><img src="imagens/spotify2.png" class="img-fluid"></a>
-                            </div>
-                            <div class="col-md-6">
-                                <a href="imagens/trainning2.png" target="_blank" tdata-lightbox="imagens"><img src="imagens/trainning2.png" class="img-fluid"></a>
-                            </div>
-                        </div>
-                        <div class="row imagens">
-                            <div class="col-md-6">
-                                <a href="imagens/finans.png" target="_blank" data-lightbox="imagens"><img src="imagens/finans.png" class="img-fluid"></a>
-                            </div>
-                            <div class="col-md-6">
-                                <a href="imagens/museu.png" target="_blank" data-lightbox="imagens"><img src="imagens/museu.png" class="img-fluid"></a>
-                            </div>
-                        </div>
-                    </div>-->
+                  
                 </div>
             </div>
+            
         </section>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="https://formsubmit.co/edukleber100@gmail.com" method="POST">
+                    <div class="form-group text-center d-flex justify-content-center align-items-center">
+                        <input class="form-control smaller-input" type="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="form-group text-center d-flex justify-content-center align-items-center">
+                        <input class="form-control smaller-input" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+                    <div class="form-group mensagem d-flex justify-content-center align-items-center">
+                        <textarea class="form-control smaller-textarea" name="mensagem" rows="3" placeholder="Digite uma mensagem" required></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                    <button class="btn btn-custom btn-branco" type="submit">Enviar</button>
+                    </div>
+                    <input type="hidden" name="_subject" value="Nova mensagem!">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://edukleber100.github.io/meu-portfolio/">
+            </div>
+        </div>       
+        </form> <!-- Fim do formulário -->
         <!-- Fim Contato -->
 
         <footer>
