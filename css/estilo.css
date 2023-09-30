@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Outfit&display=swap');
 
 
 html, body, #principal{
@@ -189,6 +190,67 @@ footer p{
     color: white;
 }
 
+.skills{
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 15px 20px #00000046;
+    background: linear-gradient(45deg, #FFF5E0, #FF6969, #BB2525, #141E46 );
+    background-size: 300%, 300%;
+    animation: colors 15s ease infinite;
+    background-attachment: fixed;
+}
+
+.skills h1{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+}
+
+.skills h3{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+}
+
+.skills ul{
+    list-style: none;
+}
+
+.skills ul li{
+    margin: 20px 0;
+}
+
+.skills .barras{
+    background-color: #ccc;
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.barras > span{
+    height: 20px;
+    background: linear-gradient(to right, #fe4701, #ff0054);
+    position: absolute;
+}
+
+.html{
+    width: 100%;
+    animation: html 3s;
+}
+
+.css{
+    width: 90%;
+    animation: css 3s;
+}
+
+.javascript{
+    width: 70%;
+    animation: javascript 3s;
+}
+
+
 @media (max-width: 390px) { 
     .text {
         font-size: 3em;
@@ -265,5 +327,32 @@ footer p{
         font-size: 2em;
         display: block; /* Altera o comportamento para elemento de bloco */
         margin: 10px auto; /* Centraliza horizontalmente */
+    }
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
     }
 }
