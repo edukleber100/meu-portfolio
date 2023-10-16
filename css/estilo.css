@@ -258,6 +258,11 @@ footer p{
     animation: javascript 3s;
 }
 
+.bootstrap{
+    width: 100%;
+    animation: bootstrap 3s;
+}
+
 
 @media (max-width: 390px) { 
     .text {
@@ -347,6 +352,15 @@ footer p{
     }
 }
 
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
 @keyframes css {
     0%{
         width: 0%;
@@ -364,3 +378,4 @@ footer p{
         width: 70%;
     }
 }
+
