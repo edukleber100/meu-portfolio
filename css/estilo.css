@@ -263,6 +263,11 @@ footer p{
     animation: bootstrap 3s;
 }
 
+.python{
+    width: 50%;
+    animation: python 3s;
+}
+
 
 @media (max-width: 390px) { 
     .text {
@@ -379,3 +384,11 @@ footer p{
     }
 }
 
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
