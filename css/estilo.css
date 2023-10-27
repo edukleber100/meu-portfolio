@@ -138,7 +138,7 @@ html, body, #principal{
 
 p {
     font-family: 'Chivo', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     text-align: justify;
 }
@@ -151,7 +151,7 @@ h2 {
 
 h3{
     font-family:'Abril Fatface', cursive;
-    font-size: 2em;
+    font-size: 3em;
     color: white;
 }
 
