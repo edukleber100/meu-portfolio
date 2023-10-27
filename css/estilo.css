@@ -263,6 +263,11 @@ footer p{
     animation: bootstrap 3s;
 }
 
+.php{
+    width: 50%;
+    animation: php 3s;
+}
+
 .python{
     width: 50%;
     animation: python 3s;
@@ -381,6 +386,15 @@ footer p{
     }
     100%{
         width: 70%;
+    }
+}
+
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
     }
 }
 
