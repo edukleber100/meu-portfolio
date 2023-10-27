@@ -67,7 +67,17 @@ html, body, #principal{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-bottom: 100px;
+    background: rgba(0, 0, 0, 0.3);
 }
+
+#portfolio {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+
 
 #contato {
     margin-bottom: 50px;
