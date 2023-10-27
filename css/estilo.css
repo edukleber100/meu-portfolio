@@ -294,19 +294,13 @@ footer p{
 .skills{
     margin-bottom: 40px;
     margin-left: 20px;
-    width: 50%;
-    padding: 40px;
+    width: 70%;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 0 15px 20px #00000046;
     background-color: rgba(95, 77, 77, 0.418);
     background-size: 300%, 300%;
     background-attachment: fixed;
-    transform: scale(1);
-    transition: .3s;
-}
-
-.skills:hover{
-    transform: scale(1.1);
 }
 
 .skills h1{
@@ -385,6 +379,7 @@ footer p{
         height: 10px; /* Defina a altura desejada */
     }
  }
+
 
  @media (max-width: 575.98px) { 
     .smaller-textarea {
