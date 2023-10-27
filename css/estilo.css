@@ -54,6 +54,15 @@ html, body, #principal{
     transition: 0.3s;
 }
 
+#videos3 video {
+    margin-left: 40px;
+    border-radius: 20%;
+    width: 90%;
+    height: 82%;
+    object-fit: cover; /* Isso preencherá o vídeo ao contêiner sem distorção */
+    box-shadow: 20px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
 #sobre {
     padding-top: 20px;
     padding-bottom: 20px;
