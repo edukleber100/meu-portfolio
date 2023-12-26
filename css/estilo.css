@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lato&family=Outfit&display=swap');
 
 
 html, body, #principal{
@@ -143,13 +144,13 @@ p {
 }
 
 h2 {
-    font-family:'Abril Fatface', cursive;
+    font-family:'Kanit', cursive;
     font-size: 3em;
     color: rgb(255, 255, 255);
 }
 
 h3{
-    font-family:'Abril Fatface', cursive;
+    font-family:'Kanit', cursive;
     font-size: 3em;
     color: white;
 }
@@ -194,11 +195,11 @@ h3{
 }
 
 .link-1::before{
-    background-color: rgb(0, 0, 0) ;
+    background-color: rgb(206, 100, 29);
 }
 
 .link-2::before{
-    background-color: rgb(0, 0, 0) ;
+    background-color: rgb(206, 100, 29) ;
 }
 
 .link-3::before{
@@ -364,6 +365,11 @@ footer p{
 }
 
 .python{
+    width: 50%;
+    animation: python 3s;
+}
+
+.c{
     width: 50%;
     animation: python 3s;
 }
